@@ -7,6 +7,7 @@
 ## themes:
 - `One Dark Theme` by `Mark Skelton` (I'm using One Dark Vivid)
 - `JetBrains Icon Theme` by `Chad Adams`
+- `GlassIt-VSC` by `hikarin522`
 
   ## How to install:
   - Copy content of `settings.json` into your settings.json file (in json view)
