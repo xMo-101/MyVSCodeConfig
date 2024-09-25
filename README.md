@@ -10,8 +10,9 @@
 - `GlassIt-VSC` by `hikarin522`
 
   ## How to install:
-  - Copy content of `settings.json` into your settings.json file (in json view)
-  - Copy content of `keybindings.json` into your keybindings.json file (found by accessing Keyboard Shortcuts and then clicking on the button with a page and an arrow in the top right)
+  - Copy the content of `settings.json` into your settings.json file (in json view)
+  - Copy the content of `keybindings.json` into your keybindings.json file (found by accessing Keyboard Shortcuts and then clicking on the button with a page and an arrow in the top right)
   - If you want, install the extensions listed above
+
 
 # Done!
