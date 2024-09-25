@@ -1,0 +1,44 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Activate Zen Mode:
+    {
+        "key": "alt+z",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+k e",
+        "command": "-workbench.files.action.focusOpenEditorsView",
+        "when": "workbench.explorer.openEditorsView.active"
+    },
+    {
+        "key": "enter",
+        "command": "-explorer.openAndPassFocus",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+    },
+    {   // Open Explorer:
+        "key": "alt+e",
+        "command": "workbench.view.explorer"
+    },
+    {   // Explorer: Create new file
+        "key": "alt+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {   // Explorer: Create new folder
+        "key": "alt+f",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {   // Switch between open windows:
+        "key": "alt+w",
+        "command": "workbench.action.nextEditor"
+    },
+    {   // Toggle sidebar:
+        "key": "alt+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+
+    // CTRL + ALT + B: Toggle Secondary Sidebar
+    // CTRL + W S: Split horizontally
+    // CTRL + W V: Split vertically
+]
